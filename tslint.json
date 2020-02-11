@@ -1,0 +1,17 @@
+{
+  "extends": [
+    "tslint:recommended",
+    "tslint-config-prettier",
+    "./tslint.config.json"
+  ],
+  "linterOptions": {
+    "exclude": [
+      "node_modules/**",
+      "dist/**",
+      "dist.js/**"
+    ]
+  },
+  "rulesDirectory": [
+    "tslint-plugin-prettier"
+  ]
+}

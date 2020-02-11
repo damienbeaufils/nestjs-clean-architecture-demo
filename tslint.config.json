@@ -1,0 +1,101 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {
+    "no-unused-expression": true,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "no-console": false,
+    "no-shadowed-variable": false,
+    "no-empty": [
+      true,
+      "allow-empty-functions"
+    ],
+    "curly": [
+      true,
+      "ignore-same-line"
+    ]
+  },
+  "rules": {
+    "prettier": true,
+    "typedef": [
+      true,
+      "call-signature",
+      "parameter",
+      "arrow-parameter",
+      "property-declaration",
+      "variable-declaration",
+      "variable-declaration-ignore-function",
+      "member-variable-declaration",
+      "object-destructuring",
+      "array-destructuring"
+    ],
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "quotemark": [
+      true,
+      "single",
+      "avoid-escape"
+    ],
+    "ordered-imports": [
+      false
+    ],
+    "variable-name": [
+      true,
+      "allow-leading-underscore"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "order": [
+          "public-static-field",
+          "protected-static-field",
+          "private-static-field",
+          "public-instance-field",
+          "protected-instance-field",
+          "private-instance-field",
+          "public-constructor",
+          "protected-constructor",
+          "private-constructor",
+          "public-static-method",
+          "protected-static-method",
+          "private-static-method",
+          "public-instance-method",
+          "protected-instance-method",
+          "private-instance-method"
+        ]
+      }
+    ],
+    "interface-name": [
+      false
+    ],
+    "object-literal-sort-keys": false,
+    "no-console": true,
+    "no-empty": [
+      true,
+      "allow-empty-functions"
+    ],
+    "arrow-parens": false,
+    "curly": [
+      true,
+      "ignore-same-line"
+    ],
+    "no-any": true,
+    "no-bitwise": true,
+    "trailing-comma": [
+      true,
+      {
+        "multiline": {
+          "objects": "always",
+          "arrays": "always",
+          "functions": "never",
+          "typeLiterals": "ignore"
+        },
+        "esSpecCompliant": true
+      }
+    ],
+    "newline-before-return": true
+  }
+
+}
