@@ -2,7 +2,7 @@
 
 [![Build Status](https://travis-ci.org/damienbeaufils/nestjs-clean-architecture-demo.svg?branch=master)](https://travis-ci.org/damienbeaufils/nestjs-clean-architecture-demo)
 
-An example of clean architecture with Spring Boot
+An example of clean architecture with NestJS
 
 ## Foreword
 
