@@ -29,7 +29,7 @@
     "@hapi/joi": "17.1.0",
     "@nestjs/common": "6.11.6",
     "@nestjs/core": "6.11.6",
-    "@nestjs/platform-express": "6.11.6",
+    "@nestjs/platform-express": "9.2.1",
     "@nestjs/typeorm": "6.2.0",
     "lodash": "4.17.21",
     "pg": "7.18.1",
